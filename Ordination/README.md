@@ -1,6 +1,4 @@
 
-Requires NumPy and Matplotlib extensions.
-
 ------------------------------------------------------------------------------------------
 
 ### PT-BR
@@ -44,5 +42,8 @@ and graphics generation was written by my colleague, https://github.com/Daviiro.
 • HeapSort
 
 • MergeSort
+
+
+Requires NumPy and Matplotlib extensions.
 
 ------------------------------------------------------------------------------------------
