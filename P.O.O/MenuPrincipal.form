@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+      <Color id="Default Cursor"/>
+    </Property>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="MenuPrincipal_Todos_os_Docentes_Substitutos" alignment="0" pref="205" max="32767" attributes="0"/>
+                          <Component id="MenuPrincipal_Todos_os_Docentes_Efetivos" alignment="0" max="32767" attributes="0"/>
+                          <Component id="MenuPrincial_Todos_os_Docentes" alignment="0" max="32767" attributes="0"/>
+                          <Component id="MenuPrincipal_Novo_Departamento" alignment="0" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                              <Component id="MenuPrincipal_Inserir_Departamento" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="MenuPrincipal_Geral_Exibir" alignment="0" max="32767" attributes="0"/>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="MenuPrincipal_Exibicao_Geral" min="-2" pref="94" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="MenuPrincipal_Todos_os_Tecnicos" alignment="0" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                              <Component id="MenuPrincipal_Exibicao_de_Funcionarios" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="MenuPrincipal_Com_Faixa_de_gastos_Especifica" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                                              <Component id="MenuPrincipal_Exibicao_de_Departamentos" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="67" max="-2" attributes="0"/>
+                                              <Component id="MenuPrincipal_Busca_de_Funcionario" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                              <Component id="MenuPrincipal_Novo_Docente_Substituto" alignment="0" pref="205" max="32767" attributes="0"/>
+                                              <Component id="MenuPrincipal_Novo_Docente_Efetivo" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="MenuPrincipal_Novo_Tecnico" alignment="0" max="32767" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                              <Component id="MenuPrincipal_Fechar_o_Sistema" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="MenuPrincipal_Resumo_Geral" min="-2" pref="205" max="-2" attributes="0"/>
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+                                                      <Component id="MenuPrincipal_Departamentos" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                              <EmptySpace max="32767" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="MenuPrincipal_Funcionarios_com_Salario_Especifico" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="MenuPrincipal_Buscar" min="-2" pref="205" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                                      <Component id="MenuPrincipal_Inserir_Funcionario" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="-2" pref="217" max="-2" attributes="0"/>
+                                      <Component id="MenuPrincipal_Por_nome" min="-2" pref="205" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="MenuPrincipal_Titulo" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="MenuPrincipal_Todos_os_Funcionarios" min="-2" pref="205" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="MenuPrincipal_Departamentos_Exibir" min="-2" pref="205" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="MenuPrincipal_Por_codigo" min="-2" pref="205" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="MenuPrincipal_Titulo" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="MenuPrincipal_Inserir_Departamento" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="MenuPrincipal_Inserir_Funcionario" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="MenuPrincipal_Novo_Departamento" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="MenuPrincipal_Novo_Tecnico" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="MenuPrincipal_Novo_Docente_Efetivo" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="MenuPrincipal_Novo_Docente_Substituto" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="MenuPrincipal_Exibicao_Geral" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="MenuPrincipal_Departamentos" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="MenuPrincipal_Funcionarios_com_Salario_Especifico" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="MenuPrincipal_Geral_Exibir" min="-2" max="-2" attributes="0"/>
+                  <Component id="MenuPrincipal_Resumo_Geral" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="MenuPrincipal_Buscar" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="MenuPrincipal_Com_Faixa_de_gastos_Especifica" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="MenuPrincipal_Exibicao_de_Funcionarios" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="MenuPrincipal_Exibicao_de_Departamentos" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="MenuPrincipal_Busca_de_Funcionario" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="MenuPrincipal_Todos_os_Funcionarios" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="MenuPrincipal_Departamentos_Exibir" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="MenuPrincipal_Por_codigo" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="MenuPrincipal_Por_nome" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="MenuPrincipal_Todos_os_Tecnicos" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="MenuPrincial_Todos_os_Docentes" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="MenuPrincipal_Todos_os_Docentes_Efetivos" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="MenuPrincipal_Todos_os_Docentes_Substitutos" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="MenuPrincipal_Fechar_o_Sistema" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="21" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="MenuPrincipal_Titulo">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Yu Gothic Medium" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Menu Principal"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="MenuPrincipal_Inserir_Funcionario">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Yu Gothic" size="12" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="99" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Inserir Funcion&#xe1;rio:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="MenuPrincipal_Inserir_Departamento">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Yu Gothic" size="12" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="99" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Inserir Departamento:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="MenuPrincipal_Novo_Departamento">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="cc" red="ff" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Yu Gothic" size="12" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="99" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Novo Departamento"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="MenuPrincipal_Novo_DepartamentoMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="MenuPrincipal_Novo_Tecnico">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="cc" red="ff" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Yu Gothic" size="12" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="99" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Novo T&#xe9;cnico"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="MenuPrincipal_Novo_TecnicoMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="MenuPrincipal_Novo_Docente_Efetivo">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="cc" red="ff" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Yu Gothic" size="12" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="99" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Novo Docente Efetivo"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="MenuPrincipal_Novo_Docente_EfetivoMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="MenuPrincipal_Novo_Docente_Substituto">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="cc" red="ff" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Yu Gothic" size="12" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="99" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Novo Docente Substituto"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="MenuPrincipal_Novo_Docente_SubstitutoMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="MenuPrincipal_Exibicao_Geral">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Yu Gothic" size="12" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="99" red="cc" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Exibi&#xe7;&#xe3;o Geral:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="MenuPrincipal_Geral_Exibir">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Yu Gothic" size="12" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="99" red="cc" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Exibir"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="MenuPrincipal_Geral_ExibirMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="MenuPrincipal_Departamentos">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Yu Gothic" size="12" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="99" red="cc" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Departamentos:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="MenuPrincipal_Resumo_Geral">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Yu Gothic" size="12" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="99" red="cc" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Resumo Geral"/>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Default Cursor"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="MenuPrincipal_Resumo_GeralMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="MenuPrincipal_Com_Faixa_de_gastos_Especifica">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Yu Gothic" size="12" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="99" red="cc" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Com Faixa de gastos Espec&#xed;fica"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="MenuPrincipal_Com_Faixa_de_gastos_EspecificaMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="MenuPrincipal_Funcionarios_com_Salario_Especifico">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Yu Gothic" size="12" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="99" red="cc" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Funcion&#xe1;rios com Sal&#xe1;rio Espec&#xed;fico:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="MenuPrincipal_Buscar">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Yu Gothic" size="12" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="99" red="cc" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Buscar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="MenuPrincipal_BuscarMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="MenuPrincipal_Exibicao_de_Funcionarios">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Yu Gothic" size="12" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Exibi&#xe7;&#xe3;o de Funcion&#xe1;rios:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="MenuPrincipal_Todos_os_Funcionarios">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="cc" red="cc" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Yu Gothic" size="12" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Todos os Funcion&#xe1;rios"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="MenuPrincipal_Todos_os_FuncionariosMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="MenuPrincipal_Todos_os_Tecnicos">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="cc" red="cc" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Yu Gothic" size="12" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Todos os T&#xe9;cnicos"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="MenuPrincipal_Todos_os_TecnicosMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="MenuPrincial_Todos_os_Docentes">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="cc" red="cc" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Yu Gothic" size="12" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Todos os Docentes"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="MenuPrincial_Todos_os_DocentesMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="MenuPrincipal_Todos_os_Docentes_Efetivos">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="cc" red="cc" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Yu Gothic" size="12" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Todos os Docentes Efetivos"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="MenuPrincipal_Todos_os_Docentes_EfetivosMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="MenuPrincipal_Todos_os_Docentes_Substitutos">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="cc" red="cc" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Yu Gothic" size="12" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Todos os Docentes Substitutos"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="MenuPrincipal_Todos_os_Docentes_SubstitutosMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="MenuPrincipal_Exibicao_de_Departamentos">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Yu Gothic" size="12" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Exibi&#xe7;&#xe3;o de Departamentos:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="MenuPrincipal_Departamentos_Exibir">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="cc" red="cc" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Yu Gothic" size="12" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Exibir"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="MenuPrincipal_Departamentos_ExibirMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="MenuPrincipal_Busca_de_Funcionario">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Yu Gothic" size="12" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Busca de Funcion&#xe1;rio:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="MenuPrincipal_Por_codigo">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="cc" red="cc" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Yu Gothic" size="12" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Por c&#xf3;digo"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="MenuPrincipal_Por_codigoMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="MenuPrincipal_Por_nome">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="cc" red="cc" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Yu Gothic" size="12" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Por nome"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="MenuPrincipal_Por_nomeMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="MenuPrincipal_Fechar_o_Sistema">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="cc" red="ff" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Yu Gothic" size="12" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="cc" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Fechar o Sistema"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="MenuPrincipal_Fechar_o_SistemaMouseClicked"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
